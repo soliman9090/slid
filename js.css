@@ -81,10 +81,12 @@
      cursor: pointer;
     background-color: rgb(61 98 151);
 }
+
+
    .slid-control .ball .active{
     background-color: #2832bf;
    }
 
-   
+
 
 /* end css */
