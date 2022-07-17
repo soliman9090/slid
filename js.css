@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 70%;
+    overflow: hidden;
+    margin: 50px auto;
+    
+}
+.slid-img{
+    width: 650px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    border: solid 2px black;
+}
+.slid-img img{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+}
+.slid-img .active{
+    opacity: 1;
+}
+.slid-number{
+    background-color:rgba(0, 0, 0, 0.278);
+    color: rgb(7, 7, 7);
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1;
+}
+.slid-control{
+    width: 650px;
+    height: 400px;
+    margin:15px auto;
+ 
+    
+}
+.slid-control .prev, .next{
+    display: inline-block;
+    background-color: rgb(61 98 151);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    width: 20%;
+   }
+   .slid-control .disabled{
+    cursor: no-drop;
+    background-color: rgb(203 204 206);
+   }
+   .slid-control .prev{
+    float: left;
+   }
+   .slid-control .next{
+    float: right;
+   }
+ 
+   .slid-control .ball ul{
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+    
+   }
+   .slid-control .ball li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 12px;
+    width: 30px;
+    border-radius: 5px;
+     color: white;
+     cursor: pointer;
+    background-color: rgb(61 98 151);
+}
+   .slid-control .ball .active{
+    background-color: #2832bf;
+   }
+
+
